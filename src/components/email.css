@@ -1,0 +1,48 @@
+#emailDiv{
+    width: 45%;
+    height: 70%;
+    background-color: rgb(203, 146, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    border: 1px solid rgb(240 42 42);
+    border-radius: 3px;
+}
+#emailDiv h1{
+    margin-top: 30px;
+    margin-bottom: 35px;
+    color: rgb(155, 3, 3);
+    text-shadow: 2px 2px  rgb(240 42 42);
+}
+.details{
+    height: 40px;
+    width: 60%;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(240 42 42);
+    color: rgb(255,255,255);
+}
+.details::placeholder{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.details:focus{
+    border: none;
+    background-color: rgb(155, 3, 3);
+}
+#emailDiv button{
+    width: 100px;
+    height: 39px;
+    background-color: rgb(240 42 42);
+    color: aliceblue;
+    border: none;
+    margin-top: 05px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#emailDiv button:hover{
+    background-color: rgb(214, 67, 37);
+    border: red solid 1px; 
+}

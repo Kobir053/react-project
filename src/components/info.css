@@ -1,0 +1,69 @@
+.details{
+    height: 40px;
+    width: 60%;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(240 42 42);
+    color: rgb(255,255,255);
+}
+.details::placeholder{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.details:focus{
+    border: none;
+    background-color: rgb(155, 3, 3);
+}
+.details:hover{
+    border: none;
+    background-color: rgb(162, 24, 24);
+}
+
+button{
+    width: 100px;
+    height: 39px;
+    background-color: rgb(240 42 42);
+    color: aliceblue;
+    border: none;
+    margin-top: 05px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(214, 67, 37);
+    border: red solid 1px; 
+}
+
+table{
+    width: 700px;
+    height: 100px;
+    margin: 20px;
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+    width: 77px;
+}
+.table-input{
+    width: 95%;
+    height: 95%;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(240 42 42);
+    color: rgb(255,255,255);
+}
+.table-input:hover{
+    border: none;
+    background-color: rgb(162, 24, 24);
+}
+.table-input:focus{
+    border: none;
+    background-color: rgb(155, 3, 3);
+}
+
+/* .videoDiv{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+} */
